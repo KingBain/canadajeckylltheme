@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Government of Canada Digital Playbook (draft)"
+title:  "Government of Canada Project_Name (draft)"
 lang: en
 altLang: fr
 altLangPage: apercu

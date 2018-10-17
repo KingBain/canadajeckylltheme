@@ -12,6 +12,7 @@ altLangPage: apercu
 ## Overview (draft)
 
 Provides practical and detailed guidance to assist the Government of Canada in digital transformation and augmented service delivery, including becoming more agile, open and user-focused. Includes task-specific views and interactive features to make it easier to find relevant guidance and to apply it to day-to-day work.
+{: .dpgn-overview-start}
 
 
 <section class="dpgn-overview-end">

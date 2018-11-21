@@ -1,9 +1,10 @@
 ---
 ---
-{% assign dataVariable = site.mainData["en"] %}{%
- assign dataSourceEn = site.data[dataVariable] %}{%
- assign dataVariable = site.mainData["fr"] %}{%
- assign dataSourceFr = site.data[dataVariable] %}
+{%assign dataVariable = site.mainData["en"] %}
+{%assign dataSourceEn = site.data.[dataVariable] %}
+
+{%assign dataVariable = site.mainData["fr"] %}
+{%assign dataSourceFr = site.data.[dataVariable] %}
 <!DOCTYPE html><!--[if lt IE 9]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 8]><!-->
 <html lang="en">
 <!--<![endif]-->

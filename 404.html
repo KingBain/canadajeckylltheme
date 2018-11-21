@@ -48,14 +48,12 @@ assign dataSourceFr = site.data[dataVariable] %}
 <p>We're sorry you ended up here. Sometimes a page gets moved or deleted, but hopefully we can help you find what you're looking for.</p>
 <p>Return to:</p>
 <p><a href="{{ site.baseurl }}{{ site.defaultView }}/en/{{ site.overviewFile['en'] }}{{ site.RenderedFileExtension }}" class="btn btn-primary">Overview</a></p>
-{% include views-vues.html lang="en" %}
 </section>
 <section class="col-md-6" lang="fr">
 <h2><span class="glyphicon glyphicon-warning-sign mrgn-rght-md"></span> Nous ne pouvons trouver cette page Web (Erreur 404)</h2>
 <p>Nous sommes désolés que vous ayez abouti ici. Il arrive parfois qu'une page ait été déplacée ou supprimée. Heureusement, nous pouvons vous aider à trouver ce que vous cherchez.</p>
 <p>Retournez à :</p>
 <p><a href="{{ site.baseurl }}{{ site.defaultView }}/fr/{{ site.overviewFile['fr'] }}{{ site.RenderedFileExtension }}" class="btn btn-primary">Aperçu</a></p>
-{% include views-vues.html lang="fr" %}
 </section>
 </div>
 </main>

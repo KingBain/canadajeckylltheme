@@ -5,7 +5,7 @@ lang: fr
 altLang: en
 altLangPage: overview
 ---
-{% assign dataVariable = site.playbookData[page.lang] %}
+{% assign dataVariable = site.mainData[page.lang] %}
 {% assign dataSource = site.data[dataVariable] %}
 <section class="dpgn-section-overview">
 
@@ -14,7 +14,6 @@ altLangPage: overview
 Fournit des conseils pratiques et détaillés pour aider le gouvernement du Canada dans la transformation numérique et la prestation de services accrue, y compris en devenant plus agile, ouvert et axé sur l'utilisateur. Inclut des vues spécifiques aux tâches et des fonctions interactives pour faciliter la recherche des conseils pertinents et pour les appliquer au travail quotidien.
 {: .dpgn-overview-start}
 
-{% include views-vues.html lang=page.lang %}
 
 <section class="dpgn-overview-end">
 
